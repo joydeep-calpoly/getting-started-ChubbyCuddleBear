@@ -1,23 +1,10 @@
-#include <stdio.h>
-
-void start() {}
-void pause() {}
-
-void function_one(int input)
-{
-   int function_one_local = input;
-
-   pause();
-}
-
-int main(void)
-{
-   int first = 357;
-   int second = 0;
-
-   start();
-
-   function_one(first);
-
-   return 0;
-}
+mkdir cpe357
+cd cpe357
+mkdir lab1
+cd lab1
+touch example_file
+ls
+cp example_file other_file
+mv example_file new_name
+rm new_name
+rm other_file
